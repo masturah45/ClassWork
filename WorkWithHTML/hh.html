@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body color="pink">
+    <fieldset>
+    <h2>REGISTRATION FORM</h2>
+    <table style="width: 100%;">
+    <form action="">
+        <div  style="display: flex;gap:25%;">
+            <span>
+            <label for="floatingInput">FirstName</label>  
+            <input type="text"   placeholder="Enter your FirstName">
+            </span>
+
+            ,<span>
+            <label for="floatingInput">LastName</label>  
+            <input type="text"   placeholder="Enter your LastName" name="LastName" maxlength="5">
+            </span>
+        </div><br><br>
+        
+        <div style="display: flex;gap:25%;" >
+            <span>
+            <label for="floatingInput">DateOfBirth</label>  
+            <input type="date" placeholder="Enter your DateOfBirth">
+            </span>
+
+            ,<span>
+            <label for="floatingInput">Reg Month</label>  
+            <input type="month" placeholder="Reg Month">
+            </span>
+        </div><br><br>
+
+        <div style="display: flex;gap:25%;" >
+            <span>
+            <label for="floatingInput">Password</label>  
+            <input type="password" placeholder="Enter your password">
+            </span>
+
+            ,<span>
+            <label for="floatingInput">Comfirm Password</label>  
+            <input type="password" placeholder="Comfirm Password">
+            </span>
+        </div><br><br>
+
+
+        <div style="display: flex;gap:25%;">
+            <span>
+            <label for="Gender">Gender:</label>
+            <select id="Gender" name="Gender">
+            <option value="Male" disabled selected>Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Rather Not Say">Rather Not Say</option>
+            </select>
+            </span>
+
+            ,<span>
+            <label for="floatingInput">Age</label>  
+            <input type="number" placeholder="Enter Age"min="18"max="50"name="Age">
+            </span>
+        </div><br><br>
+
+        <div style="display: flex;gap:25%;">
+            <span>
+            <label for="Gender">Choose your level :</label>
+            <select id="Level" name="Level">
+            <option value="Secondary" disabled selected>Level</option>
+            <option value="Secondary">Secondary</option>
+            <option value="Primary">Primary</option>
+            <option value="University">University</option>
+            </select>
+            </span>
+
+            ,<span>
+                <p>Choose Your Category</p>
+                <input type="radio" id="art" name="fav_language" value="ART">
+                <label for="art">Art</label><br>
+                <input type="radio" id="fashion" name="fav_language" value="Fashion">
+                <label for="fashion">Fashion</label><br>
+                <input type="radio" id="music" name="fav_language" value="Music">
+                <label for="music">Music</label>
+                <input type="radio" id="dance" name="fav_language" value="Dance">
+                <label for="dance">Dance</label>
+            </span>
+        </div><br><br>
+
+        <div style="display: flex;gap:100%;">
+            <span>
+            <label for="floatingInput">Address</label>  
+            <input style="height: 1cm;" placeholder="Adddress">
+            </span>
+        </div><br><br>
+
+        <button type="submit">Button</button>
+
+    </form>
+    </fieldset>
+</body>
+</html>
